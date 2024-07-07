@@ -1,38 +1,53 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-    background-color: #FEFFD2;
+    background-color: #fff;
 }
-
 .navbar {
-    background-color: #FFEEA9;
     width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
+    height: 150px;
+}
+.upper-navbar {
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+}
+#home-button {  
+    display: block;
+    margin: 0 auto;
+    font-size: 70px;
+    color: #f30e0e;
+}
+.receitas-titulo {
+    color: #f88400;
+}
+.navbar-buttons-container {
+    margin: 15px 0px;
+    width:100%;
+    height: 70px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
 }
 .navbar-buttons {
     display: flex;
-    justify-content:space-between;
-    height: 100%;
+    justify-content: space-evenly;
     width: 80%;
+    height: 100%;
+    margin: 0 auto;
 }
-
-.navbar-buttons button {
+button {
     background-color: transparent;
     border: none;
     outline: none;
-    color: #C40C0C;
+    color: #3c3c3c;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 12px;
     cursor: pointer;
 }
-#home-button {  
-    font-size: 30px;
-    color: #f30e0e;
-}
+
 a {
     text-decoration: none;
     color: #cf5300;
@@ -52,3 +67,4 @@ a {
     border-radius: 5%;
     height: 400px;
 }
+
